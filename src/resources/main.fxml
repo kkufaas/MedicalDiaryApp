@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.ComboBox?>
+<TabPane fx:controller="ui.Controller"
+         xmlns:fx="http://javafx.com/fxml" tabClosingPolicy="UNAVAILABLE">
+
+    <!-- Sugar Level Tab -->
+    <Tab text="Sugar Levels">
+        <GridPane alignment="center" hgap="10" vgap="10">
+
+            <Label text="Sugar Level" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="sugarLevelField" GridPane.rowIndex="0" GridPane.columnIndex="1" promptText="Enter Sugar Level"/>
+            <Button text="Add" onAction="#handleAddSugarLevel" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+            <Button text="Delete" onAction="#handleDeleteSugarLevel" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+            <Label text="Get By Date" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <TextField fx:id="sugarDateField" GridPane.rowIndex="1" GridPane.columnIndex="1" promptText="yyyy-MM-dd"/>
+            <Button text="Get" onAction="#handleGetSugarLevelByDate" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+
+            <Label text="Get Over Level" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <TextField fx:id="sugarLevelOverField" GridPane.rowIndex="2" GridPane.columnIndex="1" promptText="Enter Level"/>
+            <Button text="Get" onAction="#handleGetAllSugarLevelOver" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+
+            <TableView fx:id="sugarLevelTable" GridPane.rowIndex="3" GridPane.columnSpan="4">
+                <columns>
+                    <TableColumn fx:id="sugarDateColumn" text="Date"/>
+                    <TableColumn fx:id="sugarLevelColumn" text="Sugar Level"/>
+                </columns>
+            </TableView>
+        </GridPane>
+    </Tab>
+
+    <!-- Heart Rate Tab -->
+    <Tab text="Heart Rates">
+        <GridPane alignment="center" hgap="10" vgap="10">
+
+            <Label text="Heart Rate" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="heartRateField" GridPane.rowIndex="0" GridPane.columnIndex="1" promptText="Enter Heart Rate"/>
+            <Button text="Add" onAction="#handleAddHeartRate" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+            <Button text="Delete" onAction="#handleDeleteHeartRate" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+            <Label text="Get By Date" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <TextField fx:id="heartDateField" GridPane.rowIndex="1" GridPane.columnIndex="1" promptText="yyyy-MM-dd"/>
+            <Button text="Get" onAction="#handleGetHeartRateByDate" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+
+            <Label text="Get Over Level" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <TextField fx:id="heartRateOverField" GridPane.rowIndex="2" GridPane.columnIndex="1" promptText="Enter Level"/>
+            <Button text="Get" onAction="#handleGetAllHeartRateOver" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+
+            <Label text="Get Under Level" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+            <TextField fx:id="heartRateUnderField" GridPane.rowIndex="3" GridPane.columnIndex="1" promptText="Enter Level"/>
+            <Button text="Get" onAction="#handleGetAllHeartRateUnder" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+
+            <TableView fx:id="heartRateTable" GridPane.rowIndex="4" GridPane.columnSpan="4">
+                <columns>
+                    <TableColumn fx:id="heartDateColumn" text="Date"/>
+                    <TableColumn fx:id="heartRateColumn" text="Heart Rate"/>
+                </columns>
+            </TableView>
+
+            <!-- Line Chart for Heart Rate -->
+            <LineChart fx:id="heartRateChart" GridPane.rowIndex="5" GridPane.columnSpan="4" title="Heart Rate Over Time">
+                <xAxis>
+                    <NumberAxis label="Time" />
+                </xAxis>
+                <yAxis>
+                    <NumberAxis label="Heart Rate" />
+                </yAxis>
+            </LineChart>
+        </GridPane>
+    </Tab>
+
+    <!-- Arterial Pressure Tab -->
+    <Tab text="Arterial Pressure">
+        <GridPane alignment="center" hgap="10" vgap="10">
+
+            <Label text="Systolic Pressure" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="upperPressureField" GridPane.rowIndex="0" GridPane.columnIndex="1" promptText="Enter Systolic Pressure"/>
+            <Label text="Diastolic Pressure" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <TextField fx:id="lowerPressureField" GridPane.rowIndex="1" GridPane.columnIndex="1" promptText="Enter Diastolic Pressure"/>
+            <Button text="Add" onAction="#handleAddArterialPressure" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <Button text="Delete" onAction="#handleDeleteArterialPressure" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+            <Label text="Get By Date" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+            <TextField fx:id="arterialDateField" GridPane.rowIndex="3" GridPane.columnIndex="1" promptText="yyyy-MM-dd"/>
+            <Button text="Get" onAction="#handleGetArterialPressureByDate" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+
+            <Label text="Get Over Diastolic" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+            <TextField fx:id="diastolicOverField" GridPane.rowIndex="4" GridPane.columnIndex="1" promptText="Enter Level"/>
+            <Button text="Get" onAction="#handleGetAllDiastolicOver" GridPane.rowIndex="4" GridPane.columnIndex="2"/>
+
+            <Label text="Get Under Diastolic" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+            <TextField fx:id="diastolicUnderField" GridPane.rowIndex="5" GridPane.columnIndex="1" promptText="Enter Level"/>
+            <Button text="Get" onAction="#handleGetAllDiastolicUnder" GridPane.rowIndex="5" GridPane.columnIndex="2"/>
+
+            <Label text="Get Over Systolic" GridPane.rowIndex="6" GridPane.columnIndex="0"/>
+            <TextField fx:id="systolicOverField" GridPane.rowIndex="6" GridPane.columnIndex="1" promptText="Enter Level"/>
+            <Button text="Get" onAction="#handleGetAllSystolicOver" GridPane.rowIndex="6" GridPane.columnIndex="2"/>
+
+            <Label text="Get Under Systolic" GridPane.rowIndex="7" GridPane.columnIndex="0"/>
+            <TextField fx:id="systolicUnderField" GridPane.rowIndex="7" GridPane.columnIndex="1" promptText="Enter Level"/>
+            <Button text="Get" onAction="#handleGetAllSystolicUnder" GridPane.rowIndex="7" GridPane.columnIndex="2"/>
+
+            <TableView fx:id="arterialPressureTable" GridPane.rowIndex="8" GridPane.columnSpan="4">
+                <columns>
+                    <TableColumn fx:id="arterialDateColumn" text="Date"/>
+                    <TableColumn fx:id="systolicColumn" text="Systolic"/>
+                    <TableColumn fx:id="diastolicColumn" text="Diastolic"/>
+                </columns>
+            </TableView>
+
+            <!-- Line Chart for Arterial Pressure -->
+            <LineChart fx:id="arterialPressureChart" GridPane.rowIndex="9" GridPane.columnSpan="4" title="Arterial Pressure Over Time">
+                <xAxis>
+                    <NumberAxis label="Time" />
+                </xAxis>
+                <yAxis>
+                    <NumberAxis label="Pressure" />
+                </yAxis>
+            </LineChart>
+        </GridPane>
+    </Tab>
+
+    <!-- Tasks and Medicine Reminders Tab -->
+    <Tab text="Tasks and Reminders">
+        <VBox spacing="10" alignment="CENTER">
+            <HBox spacing="10" alignment="CENTER">
+                <Label text="Month:"/>
+                <TextField fx:id="monthField" promptText="MM"/>
+                <Label text="Year:"/>
+                <TextField fx:id="yearField" promptText="YYYY"/>
+                <Button text="Show Calendar" onAction="#handleShowCalendar"/>
+            </HBox>
+            <GridPane fx:id="calendarGrid" hgap="10" vgap="10">
+                <!-- Calendar days will be dynamically added here -->
+            </GridPane>
+            <HBox spacing="10" alignment="CENTER">
+                <Label text="Task Name:"/>
+                <TextField fx:id="taskNameField" promptText="Enter Task Name"/>
+                <Label text="Description:"/>
+                <TextField fx:id="taskDescriptionField" promptText="Enter Task Description"/>
+                <Button text="Add Task" onAction="#handleAddTask"/>
+            </HBox>
+            <HBox spacing="10" alignment="CENTER">
+                <Label text="Medicine Name:"/>
+                <TextField fx:id="medicineNameField" promptText="Enter Medicine Name"/>
+                <Label text="Dose:"/>
+                <TextField fx:id="doseField" promptText="Enter Dose"/>
+                <Label text="Unit:"/>
+                <ComboBox fx:id="unitComboBox"/>
+                <Button text="Add Reminder" onAction="#handleAddReminder"/>
+            </HBox>
+            <TableView fx:id="reminderTable">
+                <columns>
+                    <TableColumn fx:id="reminderDateColumn" text="Date"/>
+                    <TableColumn fx:id="reminderNameColumn" text="Medicine Name"/>
+                    <TableColumn fx:id="reminderDoseColumn" text="Dose"/>
+                    <TableColumn fx:id="reminderUnitColumn" text="Unit"/>
+                </columns>
+            </TableView>
+        </VBox>
+    </Tab>
+
+</TabPane>

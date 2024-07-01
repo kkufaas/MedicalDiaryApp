@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2feead3-9d8a-420d-8f58-c3e30144da7c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medical_Diary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/ArterialPressure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/HeartRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/IndicatorMeasurement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/MedicineReminder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/MedicineUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/SugarLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/WellBeingLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/WellBeingRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/repositories/ArterialPressureRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/repositories/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/repositories/HeartRateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/repositories/MedicineReminderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/repositories/SugarLevelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/repositories/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/repositories/WellBeingRecordRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/exceptions/DatabaseError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/repositories/ArterialPressurePSRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/repositories/HeartRatePSRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/repositories/MedicineReminderPSRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/repositories/PostgreSqlDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/repositories/PsConnectionOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/repositories/SugarLevelPSRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/repositories/TaskPSRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/repositories/WellBeingPSRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/PostgreSqlDatabaseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/MainApp.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2cawlY1WovIAFnHkGBmOmgYl1ty" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Run JavaFX App">
+    <configuration name="Run JavaFX App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ui.MainApp" />
+      <module name="Medical_Diary" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Dropbox/Mac/Downloads/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostgreSqlDatabaseTests.get_AllReminders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Medical_Diary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PostgreSqlDatabaseTests" />
+      <option name="METHOD_NAME" value="get_AllReminders" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostgreSqlDatabaseTests.get_AllSugarLevels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Medical_Diary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PostgreSqlDatabaseTests" />
+      <option name="METHOD_NAME" value="get_AllSugarLevels" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostgreSqlDatabaseTests.get_RecordByDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Medical_Diary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PostgreSqlDatabaseTests" />
+      <option name="METHOD_NAME" value="get_RecordByDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostgreSqlDatabaseTests.get_TaskByDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Medical_Diary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PostgreSqlDatabaseTests" />
+      <option name="METHOD_NAME" value="get_TaskByDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostgreSqlDatabaseTests.get_getAllOver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Medical_Diary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PostgreSqlDatabaseTests" />
+      <option name="METHOD_NAME" value="get_getAllOver" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Run JavaFX App" />
+      <item itemvalue="JUnit.PostgreSqlDatabaseTests.get_AllReminders" />
+      <item itemvalue="JUnit.PostgreSqlDatabaseTests.get_AllSugarLevels" />
+      <item itemvalue="JUnit.PostgreSqlDatabaseTests.get_getAllOver" />
+      <item itemvalue="JUnit.PostgreSqlDatabaseTests.get_RecordByDate" />
+      <item itemvalue="JUnit.PostgreSqlDatabaseTests.get_TaskByDate" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PostgreSqlDatabaseTests.get_RecordByDate" />
+        <item itemvalue="JUnit.PostgreSqlDatabaseTests.get_TaskByDate" />
+        <item itemvalue="JUnit.PostgreSqlDatabaseTests.get_AllReminders" />
+        <item itemvalue="JUnit.PostgreSqlDatabaseTests.get_getAllOver" />
+        <item itemvalue="JUnit.PostgreSqlDatabaseTests.get_AllSugarLevels" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2feead3-9d8a-420d-8f58-c3e30144da7c" name="Changes" comment="" />
+      <created>1708363149150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708363149150</updated>
+      <workItem from="1708363150347" duration="13087000" />
+      <workItem from="1710778534238" duration="28603000" />
+      <workItem from="1714563351896" duration="16542000" />
+      <workItem from="1716291847521" duration="4741000" />
+      <workItem from="1717431296585" duration="631000" />
+      <workItem from="1719079045264" duration="15769000" />
+      <workItem from="1719403253535" duration="10387000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,2 @@
+main-class: ui.MainApp
+class-path: out/production/Medical_Diary/
